@@ -41,7 +41,7 @@ body {
 
 #up-button {
     position: absolute;
-    top: 100%;
+    top: 105%;
 }
 
 .carousel {
@@ -139,6 +139,21 @@ body {
 
 .info {
     margin-top: 1000px;
+}
+
+@media only screen and (max-width: 1400px) {
+    #btnLeft {
+        margin-left: 2.5%;
+    }
+    #btnRight {
+        margin-right: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #btnLeft, #btnRight {
+        bottom: 15vh;
+    }
 }
 
 @keyframes fadein {
