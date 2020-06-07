@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .logo img {
@@ -25,6 +30,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#up-button {
+    position: absolute;
+    top: 100%;
 }
 
 .carousel {
@@ -118,6 +135,10 @@ body {
 #btnRight {
     float: right;
     margin-right: 20%;
+}
+
+.info {
+    margin-top: 1000px;
 }
 
 @keyframes fadein {
